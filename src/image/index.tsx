@@ -6,6 +6,7 @@ import Stacker1 from "./stacker.png";
 import Stacker2 from "./stacker2.png";
 import MediaWeb from "./mediaWeb1.png";
 import Tstory from "./webSite.png";
+import SangTitle from "./sangPro.png";
 
 export {
   Profile,
@@ -16,4 +17,5 @@ export {
   MediaWeb,
   Stacker2,
   Tstory,
+  SangTitle,
 };

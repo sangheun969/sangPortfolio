@@ -8,8 +8,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ["var(--noto_sans_kr)"],
-      happySans: ["var(--single_day)"],
+      NOTO: ["Noto Sans KR"],
     },
   },
   plugins: [],

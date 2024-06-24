@@ -1,6 +1,11 @@
 import React from "react";
+import Button from "./Button";
 
-const StackerModal: React.FC = () => {
+interface ModalProps {
+  onClose: () => void;
+}
+
+const StackerModal: React.FC<ModalProps> = () => {
   return <div></div>;
 };
 

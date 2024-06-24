@@ -2,6 +2,11 @@ import React from "react";
 import { Stacker1 } from "../../image/index";
 import Button from "../atoms/Button";
 import { motion } from "framer-motion";
+
+const handleWebButtonClick = () => {
+  window.open("https://stacker-labs.vercel.app/", "_blank");
+};
+
 const Work2: React.FC = () => {
   return (
     <motion.div
@@ -25,7 +30,12 @@ const Work2: React.FC = () => {
           </ul>
           <div className="flex flex-row gap-6">
             <Button variant="icontBtn" size="md" label="Detail" />
-            <Button variant="icontBtn" size="md" label="Web" />
+            <Button
+              variant="icontBtn"
+              size="md"
+              label="Web"
+              onClick={handleWebButtonClick}
+            />
           </div>
         </div>
       </div>

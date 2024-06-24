@@ -4,10 +4,8 @@ import FadeAnime from "../organisms/FadeAnime";
 const Banner: React.FC = () => {
   return (
     <div>
-      <div>
-        <p className="w-full h-[100vh] border flex flex-grow justify-center items-center bg-[#0B1018]">
-          <FadeAnime />
-        </p>
+      <div className="py-16 border w-full h-[100vh] bg-[#F4F3ED] ">
+        <FadeAnime />
       </div>
     </div>
   );

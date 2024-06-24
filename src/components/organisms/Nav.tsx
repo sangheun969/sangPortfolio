@@ -33,45 +33,46 @@ const Nav: React.FC = () => {
   }, []);
 
   return (
-    <div
-      className={`header flex w-full justify-between py-[15px] fixed  px-10 transition duration-300 delay-150 ${
-        scrolled ? "bg-[#696B6E] " : ""
-      }`}
-    >
-      <div className="logo w-[200px]  "></div>
-      <nav>
-        <ul
-          className={`flex gap-[70px] font-bold mt-5 ${
-            scrolled ? "text-black" : ""
-          }`}
-        >
-          <li>
-            <Button size="md" label="About" onClick={scrollToTop}></Button>
-          </li>
-          <li>
-            <Button
-              size="md"
-              label="Project"
-              onClick={scrollToProject}
-            ></Button>
-          </li>
-          <li>
-            <Button size="md" label="Contest"></Button>
-          </li>
-          <li>
-            <Button size="md" label="Skills"></Button>
-          </li>
-        </ul>
-      </nav>
-      <div className="mt-5 flex flex-row gap-5">
-        <Button variant="sendBtn1" size="mm" onClick={githubButtonClick}>
-          <img className="w-[35px]" src={GitHub} alt="" />
-        </Button>
-        <Button variant="sendBtn1" size="mm" onClick={tStoryButtonClick}>
-          <img className="w-[35px]" src={Tstory} alt="" />
-        </Button>
-      </div>
-    </div>
+    <></>
+    // <div
+    //   className={`header flex w-full justify-between py-[15px] fixed  px-10 transition duration-300 delay-150 ${
+    //     scrolled ? "bg-[#696B6E] " : ""
+    //   }`}
+    // >
+    //   <div className="logo w-[200px]  "></div>
+    //   <nav>
+    //     <ul
+    //       className={`flex gap-[70px] font-bold mt-5 ${
+    //         scrolled ? "text-black" : ""
+    //       }`}
+    //     >
+    //       <li>
+    //         <Button size="md" label="About" onClick={scrollToTop}></Button>
+    //       </li>
+    //       <li>
+    //         <Button
+    //           size="md"
+    //           label="Project"
+    //           onClick={scrollToProject}
+    //         ></Button>
+    //       </li>
+    //       <li>
+    //         <Button size="md" label="Contest"></Button>
+    //       </li>
+    //       <li>
+    //         <Button size="md" label="Skills"></Button>
+    //       </li>
+    //     </ul>
+    //   </nav>
+    //   <div className="mt-5 flex flex-row gap-5">
+    //     <Button variant="sendBtn1" size="mm" onClick={githubButtonClick}>
+    //       <img className="w-[35px]" src={GitHub} alt="" />
+    //     </Button>
+    //     <Button variant="sendBtn1" size="mm" onClick={tStoryButtonClick}>
+    //       <img className="w-[35px]" src={Tstory} alt="" />
+    //     </Button>
+    //   </div>
+    // </div>
   );
 };
 

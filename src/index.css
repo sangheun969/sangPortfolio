@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Tenada";
-  src: url("./fonts/Tenada.ttf");
-}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+/* @layer components {
+  .marquee {
+    @apply absolute flex flex-col items-center;
+  }
+} */
