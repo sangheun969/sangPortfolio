@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sangPortfolio/static/css/main.694afc06.css",
+    "main.js": "/sangPortfolio/static/js/main.27e1ce28.js",
+    "static/js/453.4dd6365b.chunk.js": "/sangPortfolio/static/js/453.4dd6365b.chunk.js",
+    "static/media/profile1.jpg": "/sangPortfolio/static/media/profile1.3cc3c7aa8742e6e8b17d.jpg",
+    "static/media/mediaWeb1.png": "/sangPortfolio/static/media/mediaWeb1.fc54c912dc94454206d7.png",
+    "static/media/naegift.png": "/sangPortfolio/static/media/naegift.fa5b48f58177446d818f.png",
+    "static/media/naegift2.png": "/sangPortfolio/static/media/naegift2.c31ab2423ae03657b210.png",
+    "static/media/stacker.png": "/sangPortfolio/static/media/stacker.59bc7ee8a446bfa02ed4.png",
+    "static/media/sangPro.png": "/sangPortfolio/static/media/sangPro.a0d5e6ca3e3aaf16c3a7.png",
+    "static/media/stacker2.png": "/sangPortfolio/static/media/stacker2.6da7905d5e774451bf58.png",
+    "static/media/webSite.png": "/sangPortfolio/static/media/webSite.5e62220abae5b7a58b69.png",
+    "static/media/iconGithub.png": "/sangPortfolio/static/media/iconGithub.8d5c5208ba4e6278a5f8.png",
+    "index.html": "/sangPortfolio/index.html",
+    "main.694afc06.css.map": "/sangPortfolio/static/css/main.694afc06.css.map",
+    "main.27e1ce28.js.map": "/sangPortfolio/static/js/main.27e1ce28.js.map",
+    "453.4dd6365b.chunk.js.map": "/sangPortfolio/static/js/453.4dd6365b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.694afc06.css",
+    "static/js/main.27e1ce28.js"
+  ]
+}
