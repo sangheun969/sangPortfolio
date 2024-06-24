@@ -35,7 +35,7 @@ const Header: React.FC = () => {
           <span onClick={handleProjectClick}>project</span>
         </li>
         <li className="hover:text-[#333] cursor-pointer">
-          <Link to="/contest">contest</Link>
+          <Link to="/contest">contest222</Link>
         </li>
         <li className="hover:text-[#333] cursor-pointer">
           <Link to="/skills">skills</Link>
